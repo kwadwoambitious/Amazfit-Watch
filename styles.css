@@ -47,12 +47,15 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 80px;
 }
 header ul li{
   list-style: none;
   display: inline-block;
+  margin-right: 20px;
 }
 header ul li a{
   text-decoration: none;
   font-size: 1rem;
+  color: var(--dark-blue-color);
 }
