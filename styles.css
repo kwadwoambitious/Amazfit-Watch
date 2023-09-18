@@ -29,10 +29,10 @@ body{
   flex-wrap: wrap;
   row-gap: 15px;
 }
-.alert.fixed{
+/* .alert.fixed{
   position: fixed;
   top: 0;
-}
+} */
 .alert a{
   color: var(--white-color);
   text-decoration: none;
@@ -58,4 +58,31 @@ header ul li a{
   text-decoration: none;
   font-size: 1rem;
   color: var(--dark-blue-color);
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--dark-blue-color);
+  gap: 100px;
+  padding: 40px 80px;
+}
+.hero h1{
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.hero span{
+  color: var(--dark-red-color);
+}
+.hero p{
+  font-size: 1rem;
+}
+.hero .info{
+  width: 500px;
+}
+.hero img{
+  max-width: 500px;
+  width: 100%;
 }
