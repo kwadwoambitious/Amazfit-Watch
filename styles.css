@@ -175,6 +175,7 @@ header ul li a:hover{
 }
 .left-image img {
   border: 1px solid var(--dark-red-color);
+  border-radius: 50%;
   /* width: 30px;
   height: 50px; */
   padding: 10px;
