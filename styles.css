@@ -141,6 +141,30 @@ header ul li a:hover{
   margin: 0 auto;
   margin-top: 20px;
 }
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: var(--dark-blue-color);
+  padding: 80px 10px;
+  flex-wrap: wrap;
+}
+.features h3{
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.features p{
+  font-size: 1.4em;
+}
+.center-image img{
+  width: 270px;
+}
+.left-side-info div, .right-side-info div{
+  width: 300px;
+  margin-bottom: 35px;
+}
 @media (max-width: 500px){
   .hero{
     padding: 20px 10px;
