@@ -169,25 +169,13 @@ header ul li a:hover{
 .right-side-info{
   border: 2px solid var(--dark-red-color);
 }
-.left-side-div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* border: 2px solid var(--dark-red-color); */
-}
-.right-side-div{
+.left-side-div, .right-side-div{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.left-side-info .left-side-div{
-  max-width: 300px;
-  width: 100%;
-  margin-bottom: 10px;
-  border: 2px solid var(--dark-red-color);
-}
-.right-side-info .right-side-div{
-  max-width: 300px;
+.left-side-div, .right-side-div{
+  max-width: 350px;
   width: 100%;
   margin-bottom: 10px;
   border: 2px solid var(--dark-red-color);
@@ -198,9 +186,6 @@ header ul li a:hover{
   background-color: var(--white-color);
   padding: 20px;
 }
-/* .right-image{
-  margin-right: 20px;
-} */
 @media (max-width: 500px){
   .hero{
     padding: 20px 10px;
