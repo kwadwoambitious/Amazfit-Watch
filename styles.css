@@ -163,12 +163,6 @@ header ul li a:hover{
   max-width: 270px;
   width: 100%;
 }
-/* .left-side-info{
-  border: 2px solid var(--dark-red-color);
-}
-.right-side-info{
-  border: 2px solid var(--dark-red-color);
-} */
 .left-side-div, .right-side-div{
   display: flex;
   align-items: center;
