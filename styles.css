@@ -161,13 +161,21 @@ header ul li a:hover{
 .center-image img{
   width: 270px;
 }
-.left-side-info div, .right-side-info div{
-  /* width: 300px; */
+.left-side-info div{
+  width: 300px;
   margin-bottom: 10px;
 }
-.left-side-div, .right-side-div{
+.right-side-info div{
+  width: 300px;
+  margin-bottom: 10px;
+}
+.left-side-div{
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.right-side-div{
+  display: flex;
   justify-content: center;
 }
 .left-side-div div:first-of-type, .right-side-div div:first-of-type{
