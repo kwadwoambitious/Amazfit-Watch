@@ -144,7 +144,7 @@ header ul li a:hover{
 .features{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
   color: var(--dark-blue-color);
   padding: 80px 10px;
@@ -162,23 +162,25 @@ header ul li a:hover{
   width: 270px;
 }
 .left-side-info div, .right-side-info div{
-  width: 300px;
-  /* margin-bottom: 35px; */
+  /* width: 300px; */
+  margin-bottom: 10px;
 }
-.left-side-div{
+.left-side-div, .right-side-div{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.left-side-div div:first-of-type, .right-side-div div:first-of-type{
+  margin-right: 10px;
+}
 .left-side-div .left-image{
   width: 10px;
 }
-.left-image img {
+.left-image img, .right-image img {
   border: 1px solid var(--dark-red-color);
   border-radius: 50%;
-  /* width: 30px;
-  height: 50px; */
-  padding: 10px;
+  background-color: var(--white-color);
+  padding: 20px;
 }
 @media (max-width: 500px){
   .hero{
