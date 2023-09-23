@@ -145,16 +145,16 @@ header ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 50px;
+  gap: 30px;
   color: var(--dark-blue-color);
-  margin: 80px 10px;
+  margin: 80px 60px;
   flex-wrap: wrap;
-  border: 2px solid var(--dark-red-color);
+  /* border: 2px solid var(--dark-red-color); */
 }
 .features h3{
   font-size: 1.3rem;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .features p{
   font-size: 1.4em;
@@ -163,28 +163,31 @@ header ul li a:hover{
   max-width: 270px;
   width: 100%;
 }
-.left-side-info{
+/* .left-side-info{
   border: 2px solid var(--dark-red-color);
 }
 .right-side-info{
   border: 2px solid var(--dark-red-color);
-}
+} */
 .left-side-div, .right-side-div{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .left-side-div, .right-side-div{
-  max-width: 350px;
+  max-width: 370px;
   width: 100%;
-  margin-bottom: 10px;
-  border: 2px solid var(--dark-red-color);
+  margin-bottom: 30px;
+  /* border: 2px solid var(--dark-red-color); */
 }
 .left-image img, .right-image img {
   border: 1px solid var(--dark-red-color);
   border-radius: 50%;
   background-color: var(--white-color);
   padding: 20px;
+}
+.right-image{
+  margin-right: 30px;
 }
 @media (max-width: 500px){
   .hero{
