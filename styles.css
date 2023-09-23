@@ -172,7 +172,6 @@ header ul li a:hover{
   max-width: 370px;
   width: 100%;
   margin-bottom: 30px;
-  /* border: 2px solid var(--dark-red-color); */
 }
 .left-image img, .right-image img {
   border: 1px solid var(--dark-red-color);
