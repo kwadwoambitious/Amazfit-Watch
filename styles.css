@@ -169,33 +169,29 @@ header ul li a:hover{
 .right-side-info{
   border: 2px solid var(--dark-red-color);
 }
-.left-side-div, .right-side-div{
+.left-side-div{
   display: flex;
   align-items: center;
   justify-content: center;
   /* border: 2px solid var(--dark-red-color); */
 }
+.right-side-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .left-side-info .left-side-div{
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   margin-bottom: 10px;
   border: 2px solid var(--dark-red-color);
 }
 .right-side-info .right-side-div{
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   margin-bottom: 10px;
   border: 2px solid var(--dark-red-color);
 }
-/* .left-side-div div:first-of-type{
-  margin-right: 10px;
-}
-.right-side-div div:first-of-type{
-  margin-left: 10px;
-} */
-/* .left-side-div .left-image, .right-side-div .right-image{
-  width: 10px;
-} */
 .left-image img, .right-image img {
   border: 1px solid var(--dark-red-color);
   border-radius: 50%;
