@@ -147,8 +147,9 @@ header ul li a:hover{
   justify-content: space-evenly;
   gap: 50px;
   color: var(--dark-blue-color);
-  padding: 80px 10px;
+  margin: 80px 10px;
   flex-wrap: wrap;
+  border: 2px solid var(--dark-red-color);
 }
 .features h3{
   font-size: 1.3rem;
@@ -161,29 +162,36 @@ header ul li a:hover{
 .center-image img{
   width: 270px;
 }
-.left-side-info div{
-  width: 300px;
-  margin-bottom: 10px;
+.left-side-info{
+  /* border: 2px solid var(--dark-red-color); */
 }
-.right-side-info div{
-  width: 300px;
-  margin-bottom: 10px;
+.right-side-info{
+  border: 2px solid var(--dark-red-color);
 }
-.left-side-div{
+.left-side-div, .right-side-div{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  /* border: 2px solid var(--dark-red-color); */
 }
-.right-side-div{
-  display: flex;
-  justify-content: center;
+.left-side-info .left-side-div, .right-side-info .right-side-div{
+  width: 300px;
+  margin-bottom: 10px;
+  /* border: 2px solid var(--dark-red-color); */
 }
-.left-side-div div:first-of-type, .right-side-div div:first-of-type{
+/* .right-side-info .right-side-div{
+  width: 400px;
+  margin-bottom: 10px;
+} */
+/* .left-side-div div:first-of-type{
   margin-right: 10px;
 }
-.left-side-div .left-image{
+.right-side-div div:first-of-type{
+  margin-left: 10px;
+} */
+/* .left-side-div .left-image, .right-side-div .right-image{
   width: 10px;
-}
+} */
 .left-image img, .right-image img {
   border: 1px solid var(--dark-red-color);
   border-radius: 50%;
