@@ -4,12 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+/* :root{
   --dark-blue-color: #0a1f44;
   --dark-red-color: #e01705; 
   --white-color: #ffffff;
   --light-gray-color: #f8f8f8;
-}
+} */
 body{
   scroll-behavior: smooth;
   font-size: 62.5%;
