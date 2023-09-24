@@ -67,8 +67,8 @@ header ul li a:hover{
   justify-content: center;
   flex-wrap: wrap;
   color: var(--dark-blue-color);
-  gap: 100px;
-  padding: 60px 80px;
+  gap: 20px;
+  padding: 60px 10px;
 }
 .hero h1{
   font-size: 3.4rem;
@@ -88,7 +88,7 @@ header ul li a:hover{
   width: 500px;
 }
 .hero img{
-  max-width: 500px;
+  max-width: 400px;
   width: 90%;
 }
 .hero a{
@@ -149,7 +149,6 @@ header ul li a:hover{
   color: var(--dark-blue-color);
   margin: 80px 60px;
   flex-wrap: wrap;
-  /* border: 2px solid var(--dark-red-color); */
 }
 .features h3{
   font-size: 1.3rem;
@@ -181,6 +180,14 @@ header ul li a:hover{
 }
 .right-image{
   margin-right: 30px;
+}
+@media (max-width: 900px){
+  nav{
+    display: none;
+  }
+  header{
+    padding: 20px 20px;
+  }
 }
 @media (max-width: 500px){
   .hero{
